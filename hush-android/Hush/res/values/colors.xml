@@ -1,0 +1,12 @@
+<resources>
+ 	<color name="white">#ffffff</color>
+    <color name="purple">#48365e</color>
+ 	<color name="light_purple">#c6b8c8</color>
+ 	<color name="green">#669900</color>
+ 	<color name="red">#FF4444</color>
+ 	<color name="gray">#e0e0e0</color>
+ 	<color name="blue">#0000ff</color>
+ 	<color name="orange">#FFBB33</color>
+ 	<color name="dark_gray">#a8a8a8</color>
+ 	<color name="light_olive_green">#669900</color>
+</resources>

@@ -1,0 +1,9 @@
+
+
+
+v 1.0.1
+
+It may be a good idea to explain in the App what "anonymously" means. Does it mean that my name won't be
+published or does it have to do with facebook identity? Also does it mean the data won't be stored in
+the facebook servers etc. For a naive user like me - these things matter to decide if the App is
+really meant for me!

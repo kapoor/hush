@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_new_chat"
+        android:orderInCategory="99"
+        android:showAsAction="always"
+        android:onClick="onNewChatClick"
+        android:icon="@drawable/ic_add"
+        android:title="@string/action_new_chat"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="onLogoutClick"
+        android:title="@string/action_logout"/>
+    
+</menu>

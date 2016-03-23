@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roboto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+	<RelativeLayout
+		android:id="@+id/message_bubble_wrapper"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/message_bubble_other"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="15dp">
+	
+		<com.eevoskos.robotoviews.widget.RobotoTextView
+	        android:id="@+id/tvContent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:shadowColor="#ccc"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        roboto:typeface="light"
+	        android:textColor="#000000"
+	        android:textSize="20sp" />
+		
+		<com.eevoskos.robotoviews.widget.RobotoTextView
+	        android:id="@+id/tvTimePosted"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvContent"
+	        roboto:typeface="light"
+	        android:textColor="@color/dark_gray"
+	        android:textSize="13sp" />
+	
+	</RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,10 @@
+
+debug.keystore:
+	keytool -exportcert -v -keystore ./debug.keystore -alias androiddebugkey -storepass android -keypass android | openssl sha1 -binary | openssl base64
+
+release.keystore:
+	keytool -exportcert -v -keystore ./release.keystore -alias DistributionKeyStoreAlias  -storepass HushRocks! -keypass android | openssl sha1 -binary | openssl base64
+
+
+-- Use release keystore to sign the APK
+-- Also configure it in the Android -> key hashes section in facebook app 

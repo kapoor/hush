@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roboto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Regular"
+            android:textOff="Roboto Regular"
+            roboto:typeface="regular"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Bold"
+            android:textOff="Roboto Bold"
+            roboto:typeface="bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Italic"
+            android:textOff="Roboto Italic"
+            roboto:typeface="italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Bold Italic"
+            android:textOff="Roboto Bold Italic"
+            roboto:typeface="bold_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Black"
+            android:textOff="Roboto Black"
+            roboto:typeface="black"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Black Italic"
+            android:textOff="Roboto Black Italic"
+            roboto:typeface="black_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Condensed"
+            android:textOff="Roboto Condensed"
+            roboto:typeface="condensed"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Condensed Bold"
+            android:textOff="Roboto Condensed Bold"
+            roboto:typeface="condensed_bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Condensed Italic"
+            android:textOff="Roboto Condensed Italic"
+            roboto:typeface="condensed_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Condensed Bold Italic"
+            android:textOff="Roboto Condensed Bold Italic"
+            roboto:typeface="condensed_bold_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Light"
+            android:textOff="Roboto Light"
+            roboto:typeface="light"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Light Italic"
+            android:textOff="Roboto Light Italic"
+            roboto:typeface="light_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Medium"
+            android:textOff="Roboto Medium"
+            roboto:typeface="medium"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Medium Italic"
+            android:textOff="Roboto Medium Italic"
+            roboto:typeface="medium_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Thin"
+            android:textOff="Roboto Thin"
+            roboto:typeface="thin"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Thin Italic"
+            android:textOff="Roboto Thin Italic"
+            roboto:typeface="thin_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Slab Regular"
+            android:textOff="Roboto Slab Regular"
+            roboto:typeface="slab_regular"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Slab Bold"
+            android:textOff="Roboto Slab Bold"
+            roboto:typeface="slab_bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Slab Light"
+            android:textOff="Roboto Slab Light"
+            roboto:typeface="slab_light"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Roboto Slab Thin"
+            android:textOff="Roboto Slab Thin"
+            roboto:typeface="slab_thin"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+</ScrollView>

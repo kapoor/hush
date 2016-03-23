@@ -1,0 +1,65 @@
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Hush" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_hush</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hush</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hush</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Hush</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Hush</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Hush</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_hush</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_hush</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Hush</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Hush.Widget</item>
+        
+    </style>
+
+    <style name="ActionBar.Solid.Hush" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_hush</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_hush</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_hush</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hush</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Hush" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_hush</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hush</item>
+    </style>
+
+    <style name="PopupMenu.Hush" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hush</item>	
+    </style>
+
+    <style name="DropDownListView.Hush" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_hush</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Hush" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_hush</item>
+    </style>
+
+    <style name="DropDownNav.Hush" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_hush</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hush</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_hush</item>
+    </style>
+    
+    <style name="ProgressBar.Hush" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_hush</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Hush" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_hush</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Hush.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hush</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hush</item>
+    </style>
+
+</resources>

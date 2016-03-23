@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:roboto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatWindowActivity" >
+    
+    <com.eevoskos.robotoviews.widget.RobotoTextView
+        android:id="@+id/tvChatTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        roboto:typeface="regular"
+        android:textColor="#48356e"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="@android:style/TextAppearance.Large"
+        />
+    
+    <ListView
+        android:id="@+id/lvChatWindowMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/tvChatTopic"
+        android:layout_alignParentLeft="true"
+        android:scrollbars="none"
+        android:layout_above="@+id/rlMessageContainter"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:divider="@null"
+        android:dividerHeight="0dp" >
+
+    </ListView>
+    
+    <RelativeLayout 
+        android:id="@+id/rlMessageContainter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_purple">
+        
+	    <com.eevoskos.robotoviews.widget.RobotoButton
+	        android:id="@+id/btnChatWindowSend"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:enabled="false"
+	        android:background="@android:color/transparent"
+	        android:onClick="onSendClicked"
+	        android:text="@string/send"
+	        roboto:typeface="regular" />
+        
+	    <com.eevoskos.robotoviews.widget.RobotoEditText
+	        android:id="@+id/etChatWindowMessage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@+id/btnChatWindowSend"
+	        android:layout_alignBottom="@+id/btnChatWindowSend"
+	        android:paddingBottom="13dp"
+	       	android:background="@android:drawable/editbox_background_normal"
+	        android:hint="@string/hint_new_chat"
+	        android:autoLink="all"
+	        roboto:typeface="light" />
+
+	    </RelativeLayout>
+
+</RelativeLayout>
+
+
